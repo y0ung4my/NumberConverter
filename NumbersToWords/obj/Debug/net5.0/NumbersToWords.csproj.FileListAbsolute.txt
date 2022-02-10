@@ -1,0 +1,16 @@
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.csproj.AssemblyReference.cache
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.AssemblyInfoInputs.cache
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.AssemblyInfo.cs
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.csproj.CoreCompileInputs.cache
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\NumbersToWords.exe
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\NumbersToWords.deps.json
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\NumbersToWords.runtimeconfig.json
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\NumbersToWords.runtimeconfig.dev.json
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\NumbersToWords.dll
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\ref\NumbersToWords.dll
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\bin\Debug\net5.0\NumbersToWords.pdb
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.dll
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\ref\NumbersToWords.dll
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.pdb
+C:\Users\young\desktop\code-projects\NumbersToWords\NumbersToWords\obj\Debug\net5.0\NumbersToWords.genruntimeconfig.cache
