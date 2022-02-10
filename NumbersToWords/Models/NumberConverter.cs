@@ -12,41 +12,41 @@ namespace NumbersToWords.Models
       Number = number;
     }
 
-    public Dictionary <string, string> numberDictionary = new Dictionary<string, string>()
-    {
-      {"1","one"},
-      {"2", "two"},
-      {"3", "three"},
-      {"4", "four"},
-      {"5", "five"},
-      {"6", "six"},
-      {"7", "seven"},
-      {"8", "eight"},
-      {"9", "nine"}
+    public Dictionary <char, string> numberDictionary = new Dictionary<char, string>()
+    { {'0', ""},
+      {'1',"one"},
+      {'2', "two"},
+      {'3', "three"},
+      {'4', "four"},
+      {'5', "five"},
+      {'6', "six"},
+      {'7', "seven"},
+      {'8', "eight"},
+      {'9', "nine"}
     };
-      public Dictionary<string, string> teenDictionary = new Dictionary<string, string>()
+      public Dictionary<char, string> teenDictionary = new Dictionary<char, string>()
     {
-      {"10","ten"},
-      {"11", "eleven"},
-      {"12", "twelve"},
-      {"13", "thirteen"},
-      {"14", "fourteen"},
-      {"15", "fifteen"},
-      {"16", "sixteen"},
-      {"17", "seventeen"},
-      {"18", "eighteen"},
-      {"19", "nineteen"}
+      {'0',"ten"},
+      {'1', "eleven"},
+      {'2', "twelve"},
+      {'3', "thirteen"},
+      {'4', "fourteen"},
+      {'5', "fifteen"},
+      {'6', "sixteen"},
+      {'7', "seventeen"},
+      {'8', "eighteen"},
+      {'9', "nineteen"}
     };
-      public Dictionary<string, string> tensDictionary = new Dictionary<string, string>()
+      public Dictionary<char, string> tensDictionary = new Dictionary<char, string>()
     {
-      {"20", "twenty"},
-      {"30", "thirty"},
-      {"40", "fourty"},
-      {"50", "fifty"},
-      {"60", "sixty"},
-      {"70", "seventy"},
-      {"80", "eighty"},
-      {"90", "ninety"},
+      {'2', "twenty"},
+      {'3', "thirty"},
+      {'4', "fourty"},
+      {'5', "fifty"},
+      {'6', "sixty"},
+      {'7', "seventy"},
+      {'8', "eighty"},
+      {'9', "ninety"},
     };
     public string ConvertNumberToWord() 
     {
@@ -55,15 +55,21 @@ namespace NumbersToWords.Models
 
       if (Number.Length == 1)
       {
-        result = numberDictionary[Number]; 
+        result = numberDictionary[Number[0]]; 
         return result;
       }
       else if (Number.Length == 2 && (Number[0] == '1'))
       {
-        result = teenDictionary[Number];
+        result = teenDictionary[Number[1]];
         return result;
       }
-      else 
+      else if (Number.Length == 2)
+      {
+        result =(tensDictionary[Number[0]] + numberDictionary[Number[1]]);
+        // Console.WriteLine(result);
+        return result;
+      }
+      else
       {
         return "bupkis";
       }

@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NumbersToWords.Models;
+using System;
 
 namespace NumbersToWords.Tests
 {
@@ -28,12 +29,13 @@ namespace NumbersToWords.Tests
       NumberConverter newNumberToConvert = new NumberConverter(number);
       Assert.AreEqual("ten", newNumberToConvert.ConvertNumberToWord());
     } 
-    // [TestMethod]
-    // public void ConvertNumberToWord_ConvertTeens_10()
-    // {
-    //   string number = "10";
-    //   NumberConverter newNumberToConvert = new NumberConverter(number);
-    //   Assert.AreEqual("ten", newNumberToConvert.ConvertNumberToWord());
-    // } 
+    [TestMethod]
+    public void ConvertNumberToWord_ConvertTens_20()
+    {
+      string number = "20";
+      NumberConverter newNumberToConvert = new NumberConverter(number);
+      Assert.AreEqual("twenty", newNumberToConvert.ConvertNumberToWord());
+      // Console.WriteLine(ConvertNumberToWord());
+    } 
   }
 }
